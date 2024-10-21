@@ -48,9 +48,10 @@ body{
     background-color: var(--main-color)
 }
 
-.navbar,
-.overlay,
-.header .btn {}
+img{
+    margin-left: 50px;
+}
+
 
 header{
     background-color: rgb(255, 255, 255);
@@ -82,6 +83,3 @@ header{
     color: rgb(140, 133, 133)
 }
 
-img{
-    margin-left: 50px;
-}
