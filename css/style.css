@@ -78,7 +78,9 @@ header{
     font-size: 1.4rem;
     display: flex; /* Optional, keeps items in flex */
 }
-
+.navbar-list a:hover{
+    color: rgb(140, 133, 133)
+}
 
 img{
     margin-left: 50px;
