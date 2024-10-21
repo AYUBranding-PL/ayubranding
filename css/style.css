@@ -1,0 +1,22 @@
+/*This is the file with the desing of the website: like the outfit*/
+
+@font-face {
+    font-family: 'wondershine';
+    src: url('/assets/font/Wondershine.ttf') format('truetype');
+    font-family: 'corbel';
+    src: url('/assets/font/corbel.ttf') format('truetype');
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'wondershine','corbel', sans-serif;
+}
+
+  
+
+body{
+    background-color: blueviolet;
+}
