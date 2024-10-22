@@ -1,85 +1,77 @@
 /*This is the file with the desing of the website: like the outfit*/
-
 @font-face {
     font-family: 'wondershine';
     src: url('/assets/font/Wondershine.ttf') format('truetype');
-    font-family: 'corbel';
-    src: url('/assets/font/corbel.ttf') format('truetype');
-
 }
 
+@font-face {
+    font-family: 'corbel';
+    src: url('/assets/font/corbel.ttf') format('truetype');
+}
 
 :root {
     --main-color: rgb(225, 217, 214);
-  }
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    color:white;
-    font-family: 'wondershine','corbel', sans-serif;
 }
 
-*::after{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+    font-family: 'wondershine', 'corbel', sans-serif;
 }
 
-li{
+li {
     list-style: none;
 }
 
 a,
 img,
 span,
-button
-{display: block;}
+button {
+    display: block;
+}
 
-a{
+a {
     text-decoration: none;
+    color: black;
+    font-family: 'corbel', sans-serif;
+    font-size: 1.4rem;
 }
 
-img{
+a:hover {
+    color: rgb(140, 133, 133);
+}
+
+img {
     height: auto;
-}
-
-body{
-    background-color: var(--main-color)
-}
-
-img{
     margin-left: 50px;
 }
 
+body {
+    background-color: var(--main-color);
+}
 
-header{
+header {
     background-color: rgb(255, 255, 255);
-    top:0;
-    left: 0;
     width: 100%;
-
+    position: fixed; /* Mejora para que el header esté siempre en la parte superior */
+    top: 0;
+    left: 0;
 }
-.header .container{
+
+.header .container {
     display: flex;
-    justify-content:space-between;
-    align-items:center;
-}
-.navbar-list {
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically if needed */
-}
-.navbar-list li {
-    margin: 0 50px; /* Adjust spacing between items */
-}
-.navbar-list a{
-    color: black;
-    font-family:'corbel', sans-serif;
-    font-size: 1.4rem;
-    display: flex; /* Optional, keeps items in flex */
-}
-.navbar-list a:hover{
-    color: rgb(140, 133, 133)
+    justify-content: space-between;
+    align-items: center;
 }
 
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-list li {
+    margin: 0 50px;
+}
