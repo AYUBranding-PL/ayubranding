@@ -79,6 +79,8 @@ header {
 
 .navbar-list li {
     margin: 0 20px;
+    text-align: center;
+    align-items: center;
 }
 
 /* Estilos para el botón de hamburguesa */
@@ -126,12 +128,6 @@ header {
         width: 100%;
         transition: background-color 0.3s ease-in-out;
     }
-
-    .navbar-link:hover {
-        background-color: var(--hover-color);
-        color: white;
-    }
-
     .hamburger {
         display: block;
         margin-left: auto;
