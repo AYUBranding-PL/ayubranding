@@ -289,7 +289,6 @@ header {
 
   /* Estilos para el formulario de contacto */
 .contact-section {
-  background-color: #f8f8f8; /* Fondo claro para que destaque */
   padding: 50px 20px;
   display: flex;
   justify-content: center;
@@ -375,4 +374,14 @@ textarea {
   .btn {
     font-size: 1.1rem;
   }
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Chrome, Safari y Opera */
+  margin: 0; /* Eliminar margen */
 }
