@@ -283,4 +283,6 @@ header {
       font-size: 20px; /* Tamaño de iconos más pequeño en pantallas pequeñas */
     }
   }
-      
+  .social-links li a[aria-label="X"] i {
+    color: #fff; /* Blanco solo para X */
+  }
