@@ -286,3 +286,93 @@ header {
   .social-links li a[aria-label="X"] i {
     color: #fff; /* Blanco solo para X */
   }
+
+  /* Estilos para el formulario de contacto */
+.contact-section {
+  background-color: #f8f8f8; /* Fondo claro para que destaque */
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section h2 {
+  font-family: 'corbel', sans-serif;
+  color: #333; /* Título en color oscuro */
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-section .container {
+  max-width: 600px;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-family: 'corbel', sans-serif;
+  font-size: 1.2rem;
+  color: #333; /* Etiquetas en color oscuro */
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  color: #333; /* Texto en campos de entrada en color oscuro */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--hover-color);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: var(--hover-color); /* Usa tu color de hover aquí */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #444; /* Un color más oscuro al hacer hover */
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+  .contact-section h2 {
+    font-size: 2rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1.1rem;
+  }
+}
