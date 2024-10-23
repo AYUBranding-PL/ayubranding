@@ -376,12 +376,85 @@ textarea {
   }
 }
 
-input[type="number"] {
-  -moz-appearance: textfield; /* Firefox */
-}
+
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none; /* Chrome, Safari y Opera */
   margin: 0; /* Eliminar margen */
+}
+/* Sección de Web Design */
+.web-design-section {
+  padding: 50px 20px;
+  background-color: var(--main-color);
+}
+
+.web-design-section h2 {
+  font-family: 'corbel', sans-serif;
+  color: #333;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Contenedor de las tarjetas */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tarjetas individuales */
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card i {
+  font-size: 3rem;
+  color: var(--hover-color);
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr); /* Dos tarjetas por fila en pantallas medianas */
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Una tarjeta por fila en pantallas pequeñas */
+  }
+
+  .web-design-section h2 {
+    font-size: 2rem;
+  }
+
+  .card h3 {
+    font-size: 1.4rem;
+  }
 }
