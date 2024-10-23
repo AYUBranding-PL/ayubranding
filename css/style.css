@@ -458,3 +458,777 @@ input[type="number"]::-webkit-outer-spin-button {
     font-size: 1.4rem;
   }
 }
+/* Estilo de la sección Web Design */
+.web-design-section {
+  padding: 100px 20px; /* Asegura que no esté tapado por el navbar */
+  margin-top: 80px; /* Despeja el navbar fijo */
+  background-color: var(--main-color);
+}
+
+.web-design-section h2 {
+  font-family: 'corbel', sans-serif;
+  color: #333;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card i {
+  font-size: 2.5rem;
+  color: var(--hover-color);
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Efecto de hover */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Cambia a una columna en pantallas pequeñas */
+  }
+
+  .web-design-section h2 {
+    font-size: 2rem; /* Ajuste del tamaño del título en pantallas pequeñas */
+  }
+
+  .card i {
+    font-size: 2rem; /* Íconos más pequeños en pantallas pequeñas */
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  .web-design-section {
+    padding: 50px 20px; /* Reduce el padding en pantallas pequeñas */
+  }
+}
+/* Secciones generales */
+section {
+  padding: 100px 20px;
+  background-color: var(--main-color);
+  margin-top: 80px; /* Evita que se superponga con el navbar */
+}
+
+section h2 {
+  font-family: 'corbel', sans-serif;
+  color: #333;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card i {
+  font-size: 2.5rem;
+  color: var(--hover-color);
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Efecto hover */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Cambia a una columna en pantallas pequeñas */
+  }
+
+  section h2 {
+    font-size: 2rem; /* Ajuste del tamaño del título en pantallas pequeñas */
+  }
+
+  .card i {
+    font-size: 2rem; /* Íconos más pequeños en pantallas pequeñas */
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 50px 20px; /* Reduce el padding en pantallas pequeñas */
+  }
+}
+/* Secciones generales */
+section {
+  padding: 60px 20px; /* Reducido de 100px a 60px */
+  background-color: var(--main-color);
+  margin-top: 50px; /* Mantén el margen para evitar superposición con el navbar */
+}
+
+section h2 {
+  font-family: 'corbel', sans-serif;
+  color: #333;
+  font-size: 2.2rem; /* Ajuste del tamaño del título para que sea un poco más compacto */
+  text-align: center;
+  margin-bottom: 25px; /* Reducir el espacio debajo del título */
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px; /* Reduce el padding dentro de las tarjetas */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card i {
+  font-size: 2.2rem; /* Un poco más pequeño */
+  color: var(--hover-color);
+  margin-bottom: 10px; /* Menos espacio entre el ícono y el título */
+}
+
+.card h3 {
+  font-size: 1.4rem; /* Ajustado para ser un poco más compacto */
+  margin-bottom: 8px; /* Menos espacio debajo del título */
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Efecto hover */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Sigue cambiando a una columna en pantallas pequeñas */
+  }
+
+  section h2 {
+    font-size: 2rem; /* Ajuste del tamaño del título en pantallas pequeñas */
+  }
+
+  .card i {
+    font-size: 2rem;
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 40px 20px; /* Reducir el padding aún más en pantallas pequeñas */
+  }
+}
+/* General Styles for Sections */
+section {
+  padding: 70px 20px;
+  margin-top: 60px;
+}
+
+section h2 {
+  font-family: 'corbel', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card i {
+  font-size: 2.5rem;
+  color: var(--hover-color);
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Efecto hover */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
+}
+
+/* UX/UI Section */
+#web-design-section {
+  background-color: #f0f0f0;
+}
+
+#web-design-section h2 {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+#web-design-section .card-container {
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+}
+
+/* Graphic Design Section - Fondo oscuro y estilo distinto */
+#graphic-design-section {
+  background-color: #333;
+  color: white;
+}
+
+#graphic-design-section h2 {
+  color: white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+#graphic-design-section .card {
+  background-color: #444;
+  color: white;
+}
+
+#graphic-design-section .card-container {
+  grid-template-columns: 1fr; /* Una sola columna para tarjetas grandes */
+}
+
+#graphic-design-section .card:hover {
+  background-color: #555; /* Cambia el fondo en hover */
+}
+
+/* Photo & Video Section */
+#photo-video-section {
+  background-image: url('/assets/photo-bg.jpg'); /* Agrega una imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#photo-video-section h2 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#photo-video-section .card-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#photo-video-section .card {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+  color: #333;
+}
+
+#photo-video-section .card:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Fashion Design Section */
+#fashion-design-section {
+  background-color: #ffe6e6; /* Fondo pastel */
+}
+
+#fashion-design-section h2 {
+  font-size: 2.8rem;
+  color: #333;
+  font-family: 'wondershine', sans-serif;
+}
+
+#fashion-design-section .card-container {
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas para una distribución diferente */
+}
+
+#fashion-design-section .card {
+  background-color: white;
+  border: 2px solid #e0a0a0;
+}
+
+#fashion-design-section .card:hover {
+  border-color: #d08080;
+}
+
+/* Portfolio Section */
+#portfolio-section {
+  background-color: #fafafa;
+}
+
+#portfolio-section h2 {
+  font-size: 2.5rem;
+  color: #555;
+}
+
+#portfolio-section .card-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#portfolio-section .card {
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+#portfolio-section .card:hover {
+  border-color: #ccc;
+}
+/* General Styles for Sections */
+section {
+  padding: 70px 20px;
+  margin-top: 60px;
+}
+
+section h2 {
+  font-family: 'corbel', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card i {
+  font-size: 2.5rem;
+  color: var(--hover-color);
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Efecto hover */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
+}
+
+/* UX/UI Section */
+#web-design-section {
+  background-color: #f0f0f0;
+}
+
+#web-design-section h2 {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+#web-design-section .card-container {
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+}
+
+/* Graphic Design Section - Fondo oscuro y estilo distinto */
+#graphic-design-section {
+  background-color: #333;
+  color: white;
+}
+
+#graphic-design-section h2 {
+  color: white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+#graphic-design-section .card {
+  background-color: #444;
+  color: white;
+}
+
+#graphic-design-section .card-container {
+  grid-template-columns: 1fr; /* Una sola columna para tarjetas grandes */
+}
+
+#graphic-design-section .card:hover {
+  background-color: #555; /* Cambia el fondo en hover */
+}
+
+/* Photo & Video Section */
+#photo-video-section {
+  background-image: url('/assets/photo-bg.jpg'); /* Agrega una imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#photo-video-section h2 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#photo-video-section .card-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#photo-video-section .card {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+  color: #333;
+}
+
+#photo-video-section .card:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Fashion Design Section */
+#fashion-design-section {
+  background-color: #ffe6e6; /* Fondo pastel */
+}
+
+#fashion-design-section h2 {
+  font-size: 2.8rem;
+  color: #333;
+  font-family: 'wondershine', sans-serif;
+}
+
+#fashion-design-section .card-container {
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas para una distribución diferente */
+}
+
+#fashion-design-section .card {
+  background-color: white;
+  border: 2px solid #e0a0a0;
+}
+
+#fashion-design-section .card:hover {
+  border-color: #d08080;
+}
+
+/* Portfolio Section */
+#portfolio-section {
+  background-color: #fafafa;
+}
+
+#portfolio-section h2 {
+  font-size: 2.5rem;
+  color: #555;
+}
+
+#portfolio-section .card-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#portfolio-section .card {
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+#portfolio-section .card:hover {
+  border-color: #ccc;
+}
+/* General Styles for Sections */
+section {
+  padding: 70px 20px;
+  margin-top: 60px;
+}
+
+section h2 {
+  font-family: 'corbel', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card i {
+  font-size: 2.5rem;
+  color: var(--hover-color);
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Efecto hover */
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
+}
+
+/* UX/UI Section */
+#web-design-section {
+  background-color: #f0f0f0;
+}
+
+#web-design-section h2 {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+#web-design-section .card-container {
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+}
+
+/* Graphic Design Section - Fondo oscuro y estilo distinto */
+#graphic-design-section {
+  background-color: #333;
+  color: white;
+}
+
+#graphic-design-section h2 {
+  color: white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+#graphic-design-section .card {
+  background-color: #444;
+  color: white;
+}
+
+#graphic-design-section .card-container {
+  grid-template-columns: 1fr; /* Una sola columna para tarjetas grandes */
+}
+
+#graphic-design-section .card:hover {
+  background-color: #555; /* Cambia el fondo en hover */
+}
+
+/* Photo & Video Section */
+#photo-video-section {
+  background-image: url('/assets/photo-bg.jpg'); /* Agrega una imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#photo-video-section h2 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#photo-video-section .card-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#photo-video-section .card {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+  color: #333;
+}
+
+#photo-video-section .card:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Fashion Design Section */
+#fashion-design-section {
+  background-color: #ffe6e6; /* Fondo pastel */
+}
+
+#fashion-design-section h2 {
+  font-size: 2.8rem;
+  color: #333;
+  font-family: 'wondershine', sans-serif;
+}
+
+#fashion-design-section .card-container {
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas para una distribución diferente */
+}
+
+#fashion-design-section .card {
+  background-color: white;
+  border: 2px solid #e0a0a0;
+}
+
+#fashion-design-section .card:hover {
+  border-color: #d08080;
+}
+
+/* Portfolio Section */
+#portfolio-section {
+  background-color: #fafafa;
+}
+
+#portfolio-section h2 {
+  font-size: 2.5rem;
+  color: #555;
+}
+
+#portfolio-section .card-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#portfolio-section .card {
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+#portfolio-section .card:hover {
+  border-color: #ccc;
+}
